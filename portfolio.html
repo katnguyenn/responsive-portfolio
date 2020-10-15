@@ -6,37 +6,86 @@
     <title>Portfolio Page</title>
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
-    
+
 </head>
-<body>
+<body style="overflow-x: hidden;">
 
-    <div class="container">
-
-        <div class="row">
-            <div class="col-md-12">
-                <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
-                      <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-                      <a class="navbar-brand" href="#">Katherine Nguyen</a>
-                      <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-                        <li class="nav-item active">
-                          <a class="nav-link" href="#">Home</a>
-                        </li>
-                        <li class="nav-item">
-                          <a class="nav-link" href="#">Portfolio</a>
-                        </li>
-                        <li class="nav-item">
-                          <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Contact</a>
-                        </li>
-                      </ul>
-                    </div>
-                  </nav>
-        </div>
-            </div>
-    
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <span class="navbar-brand mb-1 h1">Navbar</span>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="nav navbar-nav navbar-right">
+        <li class="nav-item">
+          <a class="nav-link" href="#">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Portfolio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Contact</a>
+        </li>
+      </ul>
     </div>
+  </nav>
+    
+    
+<div class="container">
+
+  <section class="row">
+    <div class="col-md-6 my-5">
+      <div class="card" style="width: 500px; height: 380px;">
+        <img src="https://i.ibb.co/sgVf5fQ/Screen-Shot-2020-10-15-at-9-56-53-AM.png" alt="Horiseon Homepage">
+        <section class="card-body">
+          <h5 class="card-title text-center">Horiseon Website</h5>
+          <p class="card-text text-center">The goal of this project was to refractor an existing site to make it more accessible and improve the codebase for longer sustainability.</p>
+        </section>
+      </div>
+    </div>
+    <div class="col-md-6 my-5">
+      <div class="card" style="width: 500px; height: 380px;">
+        <img src="https://i.ibb.co/6v4BfRm/Screen-Shot-2020-10-15-at-12-08-35-PM.png" alt="Small screen asking if you like sushi">
+        <section class="card-body">
+          <h5 class="card-title text-center">Sushi</h5>
+          <p class="card-text text-center">Wrote Javascript code that asked users if they like sushi and saved their response in a variable.</p>
+        </section>
+      </div>
+    </div>
+  </section>
+
+  <section class="row">
+    <div class="col-md-4 my-5">
+      <div class="card" style="width: 500px; height: 380px;">
+        <img src="https://i.ibb.co/5GdbY6t/Screen-Shot-2020-10-15-at-10-28-31-AM.png" alt="Text with positioned boxes">
+        <section class="card-body">
+          <h5 class="card-title text-center">Positioning</h5>
+          <p class="card-text text-center">Created webpage to see how elements behave when the page is scrolled relative to their positioning.</p>
+        </section>
+      </div>
+    </div>
+  </section>
+    <div class="col-md-8 my-5">
+      <div class="card" style="width: 500px; height: 380px;">
+        <img src="https://i.ibb.co/p4VNS32/Screen-Shot-2020-10-15-at-10-35-48-AM.png" alt="Elements in different float positions">
+        <section class="card-body">
+          <h5 class="card-title text-center">Floats</h5>
+          <p class="card-text text-center">Created missing CSS necessary to form the layout by first creating the boxes. Next I included padding, margin, float, overflow, etc. properties to complete the project.</p>
+        </section>
+      </div>
+    </div>
+  </section>
+</div>
+  
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+
+ 
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
     
 </body>
 </html>
