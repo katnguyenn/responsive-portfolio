@@ -1,0 +1,19 @@
+
+@media (max-width: 900px) {
+    .portfolio {
+        display: block !important;
+    }
+
+    img {
+        width: 458px;
+        height: 200px;
+    }
+
+    .card {
+        width: 460px !important;
+        height: 400px !important;
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+    }
+}
